@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex; /* Ativa flexbox no body */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh; /* Faz o body ocupar a altura total da viewport */
+    flex-direction: column; /* Alinha o conteúdo em uma coluna */
+    text-align: center; /* Centraliza o texto */
+}
+
+header {
+    background: #0077cc;
+    color: white;
+    padding: 1rem;
+    width: 100%; /* Faz o header ocupar toda a largura */
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 600px; /* Define um limite para a largura */
+    width: 100%; /* Adapta-se a telas menores */
+}
+
+.perfil-img {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 1rem auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%; /* Faz o footer ocupar toda a largura */
+}
+
+#sobre-mim ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+#sobre-mim ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#sobre-mim ul li:last-child {
+    border-bottom: none;
+}
